@@ -1,6 +1,3 @@
-# React + TailwindCSS + React Query + React Router
+# Trackr
 
-This is my basic template file for the above stack. All devtools and IDE tooling is in place including utility class sorting from Prettier and the React Query Devtools. 
-
->[!NOTE]
->Project was scaffolded with Vite.
+The front-end for my simplified gym tracker, made because I didn't get on with any of the commercial options.
