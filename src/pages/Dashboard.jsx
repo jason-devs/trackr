@@ -19,8 +19,12 @@ function Dashboard() {
         DASHBOARDY STUFF
       </div>
       <nav className="mt-auto flex w-[400px] items-center justify-between">
-        <NavLink className="text-4xl">🏠</NavLink>
-        <NavLink className="text-4xl">🏋️‍♀️</NavLink>
+        <NavLink to="/dashboard" className="text-4xl">
+          🏠
+        </NavLink>
+        <NavLink to="/workout" className="text-4xl">
+          🏋️‍♀️
+        </NavLink>
         <NavLink className="text-4xl">🕰</NavLink>
         <NavLink className="text-4xl">⚙️</NavLink>
       </nav>
