@@ -4,7 +4,7 @@ function Dashboard() {
   const date = new Date().toLocaleDateString();
 
   return (
-    <div className="flex h-[100svh] flex-col items-center gap-1">
+    <div className="flex h-full flex-col items-center gap-1">
       <p className="text-xl">Welcome back, Jason! Today is: {date}</p>
       <div className="flex h-[100px] w-[400px] items-center justify-center rounded-sm border-2">
         THIS IS FOR GRAPHS
@@ -18,16 +18,6 @@ function Dashboard() {
       <div className="flex h-[85px] w-[400px] items-center justify-center rounded-sm border-2">
         DASHBOARDY STUFF
       </div>
-      <nav className="mt-auto flex w-[400px] items-center justify-between">
-        <NavLink to="/dashboard" className="text-4xl">
-          🏠
-        </NavLink>
-        <NavLink to="/workout" className="text-4xl">
-          🏋️‍♀️
-        </NavLink>
-        <NavLink className="text-4xl">🕰</NavLink>
-        <NavLink className="text-4xl">⚙️</NavLink>
-      </nav>
     </div>
   );
 }
