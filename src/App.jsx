@@ -5,6 +5,7 @@ import Workout from "./pages/Workout";
 import AppLayout from "./pages/AppLayout";
 import PageNotFound from "./pages/PageNotFound";
 import Profile from "./pages/Profile";
+import Template from "./pages/Template";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Landing />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="workout" element={<Workout />} />
+          <Route path="template" element={<Template />} />
           <Route path="profile" element={<Profile />} />
         </Route>
         <Route path="*" element={<PageNotFound />}></Route>
