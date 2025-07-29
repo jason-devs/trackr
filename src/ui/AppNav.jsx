@@ -9,8 +9,12 @@ function AppNav() {
       <NavLink to="/workout" className="text-2xl">
         🏋️‍♀️
       </NavLink>
-      <NavLink className="text-2xl">🕰</NavLink>
-      <NavLink className="text-2xl">⚙️</NavLink>
+      <NavLink to="/templates" className="text-2xl">
+        📝
+      </NavLink>
+      <NavLink to="/profile" className="text-2xl">
+        🙂
+      </NavLink>
     </nav>
   );
 }
