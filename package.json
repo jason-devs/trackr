@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "cleanup-branch": "B_N=* git checkout main && git pull origin main && git branch -D $B_N && git fetch --prune"
+    "cleanup-branch": "B_N=* git checkout main && git pull origin main && git branch -D $B_N && git fetch --prune",
+    "push-branch": "B_N=* git push origin $B_N"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
